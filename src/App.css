@@ -1,0 +1,454 @@
+
+:root{
+  /* COLORS */
+
+  --p-color: 'black';
+
+  /* FONTS */
+  /* --cutive-mono: 'Cutive Mono', monospace; */
+  --space-mono: 'Space Mono', monospace;
+  --mulish: 'Mulish', sans-serif;
+
+
+
+  /* FONT SIZES */
+  --paragraph: 24rem;
+
+
+}
+
+*, body, html::before, html::after{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: var(--space-mono);
+  
+  position: relative;
+
+}
+
+h1,h2,h3{
+  font-family: var(--mulish);
+}
+
+
+body{
+  background-image: url('./assets/pattern.svg');
+}
+
+h2{
+  font-size: 32px;
+}
+
+
+
+
+
+.container{
+  width: min(90%, 1000px);
+  margin-inline: auto;
+  position: relative;
+}
+
+.flex-container{
+  display: block;
+  gap: 20px;
+}
+
+.header-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+section{
+  padding: clamp(3rem,4vw,5rem) 0;
+}
+
+/* img{
+  width: 100%;
+} */
+
+/* NAVIGATION STYLE */
+
+.flex-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.nav-menu ul{
+
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  padding: 1rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 160px;
+  
+}
+
+.nav-menu a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--p-color);
+  font-family: var(--mulish);
+}
+
+.nav-menu li{
+  display: inline-block;
+  padding: .5rem 1rem;
+}
+
+.hamburg{
+  padding: .5rem .8rem;
+
+}
+
+/* .hamburg:active{
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+} */
+
+.nav-menu{
+  position: relative;
+}
+
+
+nav{
+  position:absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/* HEADER STYLE */
+
+.header{
+  background-color: rgb(192, 191, 218);
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* .col1 p{
+  font-size: clamp();
+} */
+
+.col1 h1{
+  font-size: clamp(40px, 5vw, 100px);
+}
+
+.col1 h2{
+  font-size: clamp(20px, 5vw,30px);
+}
+
+
+.profile img{
+  width: 100%;
+}
+
+
+
+
+/* CARD/ skills card */
+
+.skills-grid{
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+
+
+
+
+.card h3{
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.card h3::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  margin-right: 10px;
+  background-color: black;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-title{
+ width: 100%;
+ display: flex;
+ margin-inline: auto;
+ justify-content: center;
+  position: absolute;
+  top: -30px;
+}
+
+.card-title h2{
+  text-align: center;
+  background-color: rgb(223, 234, 235);
+  padding: .5rem 1rem;
+  display: inline-block;
+  box-shadow: 5px 5px black;
+  border: 1px solid black;
+}
+
+.card{
+  position: relative;
+  border-radius: 16px;
+  border: 2px dashed black;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.card-body{
+  margin-top: 30px;
+}
+
+.card-body:not(:first-child){
+  margin-top: 50px;
+}
+
+.software{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+.section-title{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* .skill1{
+  margin-top: 20px;
+} */
+
+.skill2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+margin-top: 20px;
+}
+
+
+/* PROJECTS */
+
+.pgrid{
+  display: grid;
+  grid-gap: 20px;
+}
+
+.pcard-img{
+  width: 100%;
+  height: 50%;
+overflow: hidden;
+}
+
+.pcard-desc{
+  padding: 1rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card{
+  width: 100%;
+  display: block;
+  height: 500px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 2px dashed black;
+}
+
+.project-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/* HEADER */
+.header-details{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-details p {
+  margin-left: 10px;
+}
+
+.ahoi {
+  margin-top: clamp(20px, 4vw, 2rem);
+}
+
+.ahoi :nth-child(3) {
+  font-size: clamp(13px, 4vw, 15px);
+}
+
+.desktop-menu{display: none;}
+
+
+  /* FOOTER */
+
+  .footer-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+
+  .footer-div p{
+    text-align: center;
+  }
+  .footer-div a{
+  color: white;
+  }
+
+  .footer{
+    background-color: rgb(37, 35, 37);
+  }
+
+  
+  #about p{
+    text-align: justify;
+  }
+
+
+/* tablets */
+@media only screen and (min-width: 768px) {
+
+  .flex-container{
+    display: flex;
+    gap: 20px;
+  }
+
+  .project-card{
+    margin-inline: none;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+  
+  }
+
+  .pcard-img{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(238, 230, 231);
+    
+  }
+
+
+  .pcard-desc h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .pcard-desc{
+    padding: 1rem;
+    width: 50%;
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .profile {
+    max-width: 400px;
+  }
+
+  .hamburg{
+    display: none;
+  }
+
+  .nav-menu {
+  display: none;
+  }
+
+  .desktop-menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: none;
+    
+  }
+
+  .desktop-menu li{
+    display: inline-block;
+    padding: .5rem 2rem;
+  }
+
+  .desktop-menu a{
+    text-decoration: none;
+    color: var(--p-color);
+  }
+
+  .skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+   
+  
+  }
+
+  .skill2{
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+
+  
+  .footer-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+  }
+
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .header-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .profile {
+    max-width: 400px;
+  }
+
+
+  .header-details{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+  }
+
+
+ 
+
+}
+
