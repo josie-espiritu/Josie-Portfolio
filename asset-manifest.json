@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/josie-espiritu/josie-portfolio.git/static/css/main.7e641920.css",
+    "main.js": "/josie-espiritu/josie-portfolio.git/static/js/main.f1846461.js",
+    "static/js/488.0290f1d8.chunk.js": "/josie-espiritu/josie-portfolio.git/static/js/488.0290f1d8.chunk.js",
+    "static/media/noise.png": "/josie-espiritu/josie-portfolio.git/static/media/noise.a2232727fe52ee96bf72.png",
+    "index.html": "/josie-espiritu/josie-portfolio.git/index.html",
+    "static/media/pattern.svg": "/josie-espiritu/josie-portfolio.git/static/media/pattern.bc5177e0068f03228d18.svg",
+    "main.7e641920.css.map": "/josie-espiritu/josie-portfolio.git/static/css/main.7e641920.css.map",
+    "main.f1846461.js.map": "/josie-espiritu/josie-portfolio.git/static/js/main.f1846461.js.map",
+    "488.0290f1d8.chunk.js.map": "/josie-espiritu/josie-portfolio.git/static/js/488.0290f1d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e641920.css",
+    "static/js/main.f1846461.js"
+  ]
+}
