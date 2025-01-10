@@ -12,6 +12,7 @@ import noise from './assets/noise.png'
 
 
 export const projects = 
+ [ 
   {
     src: noise,
     alt: 'a',
@@ -19,7 +20,15 @@ export const projects =
     description: `Developed using WordPress, and used Figma for the Web Design`,
     link: 'https://greyspethotel.com/',
 
-  }
+  },
+
+    {src: noise,
+    alt: 'a',
+    title: `A To Do List App`,
+    description: `This project is made using Context API, and hooks like useReducer and useState`,
+    link: 'https://josie-espiritu.github.io/to-do-list/',
+}
+]
 
 
 

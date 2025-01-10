@@ -1,20 +1,26 @@
 import React from 'react'
-import { projects } from '../App'
 
 
 
  const ProjectCard = (props) => {
+
+  const {src, alt, title, description, link} = props.data
 
  
 
   return (
    
       <div className='project-card'>
-        <div className="pcard-img"> </div>
+        {/* <div className="pcard-img" 
+        style={{
+          backgroundImage: {src}
+        }}
+        > </div> */}
+        <div className='pcard-img'><img src={src} alt={alt}/></div>
         <div className="pcard-desc">
           <div>
-            <h3>{props.title}</h3>
-            <p>{props.description} </p>
+            <h3>{title}</h3>
+            <p>{description} </p>
           </div>
           <a style={{
             padding: '1rem 0',
@@ -25,7 +31,7 @@ import { projects } from '../App'
             display: 'inline-block',
             textDecoration: 'none',
          
-          }} href={props.link}>View Project</a>
+          }} href={link}>View Project</a>
         </div>
       </div>
 

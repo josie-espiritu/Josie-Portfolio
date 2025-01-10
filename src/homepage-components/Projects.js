@@ -1,7 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import noise from '../assets/noise.png'
-import { projects } from '../App'
+import { PROJECTS } from '../projects'
 
 
 
@@ -20,27 +19,10 @@ const Projects = () => {
       </div>
       <div className='container pgrid'>
 
-      <ProjectCard title = {projects.title} description = {projects.description}
-      link = {projects.link}
-      />
-
-<ProjectCard title = {projects.title} description = {projects.description}
-      link = {projects.link}
-      />
-
-<ProjectCard title = {projects.title} description = {projects.description}
-      link = {projects.link}
-      />
-
-<ProjectCard title = {projects.title} description = {projects.description}
-      link = {projects.link}
-      />
-
-{/* {projects.map((project)=> (
-                <ProjectCard title = {project.title} description = {project.description}
-                link = {project.link}
+      {PROJECTS.map((project)=> (
+                <ProjectCard data={project}
                 />
-            ))} */}
+            ))}
 
 
       </div>
