@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/josie-portfolio/static/css/main.fffafa4b.css",
-    "main.js": "/josie-portfolio/static/js/main.74df844d.js",
+    "main.css": "/josie-portfolio/static/css/main.9fa1cb0c.css",
+    "main.js": "/josie-portfolio/static/js/main.06d5cc92.js",
     "static/js/488.0290f1d8.chunk.js": "/josie-portfolio/static/js/488.0290f1d8.chunk.js",
     "static/media/noise.png": "/josie-portfolio/static/media/noise.a2232727fe52ee96bf72.png",
+    "static/media/pethotel.png": "/josie-portfolio/static/media/pethotel.57665875df494c3fec42.png",
+    "static/media/todo.png": "/josie-portfolio/static/media/todo.bad55b092c3358db6627.png",
     "index.html": "/josie-portfolio/index.html",
     "static/media/pattern.svg": "/josie-portfolio/static/media/pattern.bc5177e0068f03228d18.svg",
-    "main.fffafa4b.css.map": "/josie-portfolio/static/css/main.fffafa4b.css.map",
-    "main.74df844d.js.map": "/josie-portfolio/static/js/main.74df844d.js.map",
+    "main.9fa1cb0c.css.map": "/josie-portfolio/static/css/main.9fa1cb0c.css.map",
+    "main.06d5cc92.js.map": "/josie-portfolio/static/js/main.06d5cc92.js.map",
     "488.0290f1d8.chunk.js.map": "/josie-portfolio/static/js/488.0290f1d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fffafa4b.css",
-    "static/js/main.74df844d.js"
+    "static/css/main.9fa1cb0c.css",
+    "static/js/main.06d5cc92.js"
   ]
 }
