@@ -1,5 +1,6 @@
 import pethotel from './assets/pethotel.png'
 import todo from './assets/todo.png'
+import plantita from './assets/plantita.png'
 
 export const PROJECTS = 
  [ 
@@ -17,5 +18,12 @@ export const PROJECTS =
     title: `A To Do List App`,
     description: `This project is made using React JS and useState hook`,
     link: 'https://josie-espiritu.github.io/to-do-list/',
+},
+
+{src: plantita,
+  alt: 'a',
+  title: `PLANTITA e-commerce app`,
+  description: `This project is made using React JS , Context API, and useState, and also with fontawesome icon library`,
+  link: 'https://josie-espiritu.github.io/plantita/',
 }
 ]
