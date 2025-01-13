@@ -8,6 +8,7 @@
   /* --cutive-mono: 'Cutive Mono', monospace; */
   --space-mono: 'Space Mono', monospace;
   --mulish: 'Mulish', sans-serif;
+  --card-title-bg:  rgb(203, 219, 176);
 
 
 
@@ -72,6 +73,19 @@ section{
 
 /* NAVIGATION STYLE */
 
+.flex-nav h2 a{
+  text-decoration: none;
+  color: var(--p-color);
+  font-family: var(--mulish);
+  cursor: pointer;
+}
+
+.flex-nav h2  :hover{
+  color: white;
+  transition: .3s;
+}
+
+
 .flex-nav{
   display: flex;
   justify-content: space-between;
@@ -134,7 +148,7 @@ nav{
 /* HEADER STYLE */
 
 .header{
-  background-color: rgb(192, 191, 218);
+  background-color: var(--card-title-bg);
   padding-top: 100px;
   text-align: center;
 }
@@ -199,7 +213,7 @@ nav{
 
 .card-title h2{
   text-align: center;
-  background-color: rgb(223, 234, 235);
+  background-color: var(--card-title-bg);
   padding: .5rem 1rem;
   display: inline-block;
   box-shadow: 5px 5px black;
@@ -258,6 +272,28 @@ margin-top: 20px;
   height: 50%;
 overflow: hidden;
 }
+
+.pcard-a{
+  padding: 1rem 0;
+  text-align: center;
+  border-radius: 8px;
+  background-color: var(--card-title-bg);
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid transparent;
+
+
+}
+
+.pcard-a:hover{
+ 
+  box-shadow: 4px 4px 0 black;
+  transition: .3s;
+  border: 1px solid black;
+}
+
 
 .pcard-img img{
   width: 100%;
@@ -362,6 +398,7 @@ overflow: hidden;
     
   }
 
+  
 
   .pcard-desc h3{
     font-size: 30px;
@@ -397,9 +434,18 @@ overflow: hidden;
     
   }
 
+  .desktop-menu li:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+  
+
+  }
+
   .desktop-menu li{
     display: inline-block;
     padding: .5rem 2rem;
+    border-radius: 8px;
   }
 
   .desktop-menu a{

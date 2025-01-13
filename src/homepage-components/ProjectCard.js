@@ -22,16 +22,7 @@ import React from 'react'
             <h3>{title}</h3>
             <p>{description} </p>
           </div>
-          <a style={{
-            padding: '1rem 0',
-            textAlign: 'center',
-            borderRadius: '8px',
-            backgroundColor: 'pink',
-            marginTop: '20px',
-            display: 'inline-block',
-            textDecoration: 'none',
-         
-          }} href={link}>View Project</a>
+          <a className='pcard-a' href={link}>View Project</a>
         </div>
       </div>
 

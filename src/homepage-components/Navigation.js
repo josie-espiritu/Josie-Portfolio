@@ -13,7 +13,7 @@ const Navigation = () => {
 
   return (
     <div className='container flex-nav'>
-      <h2>JOSIE</h2>
+      <h2><a href='#top'>JOSIE</a></h2>
 
       <ul className='desktop-menu'>
             <li><a href='#top'>Home</a></li>
