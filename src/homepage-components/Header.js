@@ -3,8 +3,9 @@ import noise from '../assets/noise.png'
 import IconText from './IconText'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faPhone,  } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
  
 const Header = () => {
   return (
@@ -15,7 +16,8 @@ const Header = () => {
           <h1>Josie Mar P. Espiritu</h1>
           <h2>I.T. Gradute</h2>
          <div className='ahoi'>
-            <IconText><FontAwesomeIcon icon={faEnvelope}/> <p>espiritu.josiemar@gmail.com</p></IconText>
+          <a className='git-link' href='https://github.com/josie-espiritu'><IconText><FontAwesomeIcon icon={faGithub}/> <p>https://github.com/josie-espiritu</p> </IconText></a>
+            <a className='git-link' href='mailto:espiritu.josiemar@gmail.com'><IconText><FontAwesomeIcon icon={faEnvelope}/> <p>espiritu.josiemar@gmail.com</p></IconText></a>
             <IconText><FontAwesomeIcon icon={faPhone}/> <p >+639694946895</p></IconText>
             <IconText><FontAwesomeIcon icon={faLocationDot}/> <p >Brgy. Sta. Cruz, Antipolo City, Rizal</p></IconText>
          </div>

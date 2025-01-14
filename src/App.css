@@ -64,7 +64,7 @@ h2{
 }
 
 section{
-  padding: clamp(3rem,4vw,5rem) 0;
+  padding-top: clamp(3rem,4vw,5rem) ;
 }
 
 /* img{
@@ -147,9 +147,20 @@ nav{
 
 /* HEADER STYLE */
 
+.git-link{
+  color: black;
+}
+
+.git-link :hover{
+  background-color: white;
+  width: fit-content;
+  padding: 0 .2em;
+  border-radius: 10px;
+}
+
 .header{
   background-color: var(--card-title-bg);
-  padding-top: 100px;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -178,6 +189,7 @@ nav{
 .skills-grid{
   display: grid;
   grid-template-columns: auto;
+  margin-top: 30px;
 
 }
 
@@ -243,7 +255,8 @@ nav{
 
 
 .section-title{
-  margin-bottom: 50px;
+  margin-bottom: .5em;
+  font-size: clamp(3em, 4vw, 5em);
   text-align: center;
 }
 
@@ -258,8 +271,35 @@ display: block;
   height: 100%;
 }
 
+.cv-a{
+  padding: 1rem 0;
+  text-align: center;
+  border-radius: 8px;
+  background-color: var(--card-title-bg);
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  border: 1px solid transparent;
+
+
+}
+
+.cv-a:hover{
+ 
+  box-shadow: 4px 4px 0 black;
+  transition: .3s;
+  border: 1px solid black;
+}
+
+
 
 /* PROJECTS */
+
+#projects{
+  padding-bottom: clamp(5em,4vw,8em);
+}
 
 .pgrid{
   display: grid;
@@ -461,7 +501,7 @@ overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-   
+
   
   }
 

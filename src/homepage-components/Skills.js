@@ -2,8 +2,13 @@ import React from 'react'
 import Card from './Card'
 
 const Skills = () => {
+
+  const windowOpener = () =>
+{
+  window.open('/Josie_Espiritu_CV.pdf', '_blank')
+}
   return (
-    <section>
+  
      
       <div className='container skills-grid'>
         <div className='skill1'>
@@ -47,8 +52,6 @@ const Skills = () => {
             <ul>
               <li>Attention to Detail</li>
               <li>Creativity</li>
-              <li>Team Work</li>
-              <li>Adaptability</li>
               <li>Collaboration</li>
             </ul>
           </Card>
@@ -71,9 +74,11 @@ const Skills = () => {
               </ul>
             </div>
           </Card>
+
+          <a className="cv-a" onClick={windowOpener}>Download My CV here!</a>
         </div>
       </div>
-    </section>
+ 
   )
 }
 

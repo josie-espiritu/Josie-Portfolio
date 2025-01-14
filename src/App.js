@@ -48,7 +48,6 @@ function App() {
 
     <main>
       <About/>
-      <Skills/>
       <Projects/>
     </main>
 
