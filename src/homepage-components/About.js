@@ -5,7 +5,7 @@ const About = () => {
    <section id='about'>
       <div className='container' >
         <h2 className='section-title'>About me</h2>
-        <p>As a fresh graduate of Our Lady of Fatima University – Antipolo Campus with a Bachelor of Science in Information Technology (BSIT), I am seeking work opportunities to enhance my skills, gain experience and to contribute greatly to organizational goals. I am committed to learn and adapt to new practices and technology. </p>
+        <p>Recent Information Technology graduate with a good foundation for front-end development and creating visually appealing UI designs using Figma. I have developed personal projects using HTML, CSS and ReactJS, and hands-on experience building responsive websites through academic projects. Demonstrated my front-end development capabilities during OJT Training, allowing me to take a small-scale project.   </p>
       </div>
    </section>
   )
