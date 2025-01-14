@@ -3,10 +3,6 @@ import Card from './Card'
 
 const Skills = () => {
 
-  const windowOpener = () =>
-{
-  window.open('/Josie_Espiritu_CV.pdf', '_blank')
-}
   return (
   
      
@@ -75,7 +71,7 @@ const Skills = () => {
             </div>
           </Card>
 
-          <a className="cv-a" onClick={windowOpener}>Download My CV here!</a>
+          <a className="cv-a" href='/Josie_Espiritu_CV.pdf' download='Josie_Espiritu_CV.pdf'>Download My CV here!</a>
         </div>
       </div>
  
