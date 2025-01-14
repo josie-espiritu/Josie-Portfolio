@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/josie-portfolio/static/css/main.b5c13bd8.css",
-    "main.js": "/josie-portfolio/static/js/main.64a4dd96.js",
+    "main.css": "/josie-portfolio/static/css/main.1819322e.css",
+    "main.js": "/josie-portfolio/static/js/main.f82e2666.js",
     "static/js/488.0290f1d8.chunk.js": "/josie-portfolio/static/js/488.0290f1d8.chunk.js",
     "static/media/noise.png": "/josie-portfolio/static/media/noise.a2232727fe52ee96bf72.png",
     "static/media/plantita.png": "/josie-portfolio/static/media/plantita.bed525f6b38c42a22427.png",
@@ -9,12 +9,12 @@
     "static/media/todo.png": "/josie-portfolio/static/media/todo.bad55b092c3358db6627.png",
     "index.html": "/josie-portfolio/index.html",
     "static/media/pattern.svg": "/josie-portfolio/static/media/pattern.bc5177e0068f03228d18.svg",
-    "main.b5c13bd8.css.map": "/josie-portfolio/static/css/main.b5c13bd8.css.map",
-    "main.64a4dd96.js.map": "/josie-portfolio/static/js/main.64a4dd96.js.map",
+    "main.1819322e.css.map": "/josie-portfolio/static/css/main.1819322e.css.map",
+    "main.f82e2666.js.map": "/josie-portfolio/static/js/main.f82e2666.js.map",
     "488.0290f1d8.chunk.js.map": "/josie-portfolio/static/js/488.0290f1d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5c13bd8.css",
-    "static/js/main.64a4dd96.js"
+    "static/css/main.1819322e.css",
+    "static/js/main.f82e2666.js"
   ]
 }
