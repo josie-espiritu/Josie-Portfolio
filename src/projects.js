@@ -8,7 +8,7 @@ export const PROJECTS =
     src: pethotel,
     alt: `Grey's Pet Hotel website image`,
     title: `Grey's Pet Hotel Web Design`,
-    description: `Designed using Figma, and Developed using WordPress.`,
+    description: `A small project assigned to me during my OJT. Designed using Figma, and Developed using WordPress.`,
     link: 'https://greyspethotel.com/',
 
   },
