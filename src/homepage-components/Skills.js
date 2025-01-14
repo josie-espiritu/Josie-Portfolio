@@ -36,6 +36,8 @@ const Skills = () => {
             </ul>
           </Card>
         </div>
+
+
         <div className='skill2'>
           <Card title = 'Languages'><ul>
             <li>Filipino</li>
@@ -50,7 +52,7 @@ const Skills = () => {
               <li>Collaboration</li>
             </ul>
           </Card>
-          <Card title = 'Technical Skills'>
+          <Card title = 'Technical Skills' >
             <ul>
               <li>Knowledge on HTML and CSS</li>
               <li>Familiarity with JavaScript</li>

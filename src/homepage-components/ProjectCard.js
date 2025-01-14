@@ -11,11 +11,6 @@ import React from 'react'
   return (
    
       <div className='project-card'>
-        {/* <div className="pcard-img" 
-        style={{
-          backgroundImage: {src}
-        }}
-        > </div> */}
         <div className='pcard-img'><img src={src} alt={alt}/></div>
         <div className="pcard-desc">
           <div>
